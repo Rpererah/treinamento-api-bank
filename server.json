@@ -1,40 +1,60 @@
 {
-    "transactions":[
-        {
-            "id":1,
-            "description":"Desenvolvimento de sites",
-            "type":"income",
-            "category":"Venda",
-            "price":14000.00,
-            "createAt":"2024-06-10T15:02:25.989Z"
-
-        },
-        {
-            "id":2,
-            "description":"Hamburger",
-            "type":"outcome",
-            "category":"Compra",
-            "price":3.00,
-            "createAt":"2024-06-10T15:02:25.989Z"
-
-        },
-        {
-            "id":3,
-            "description":"Compras",
-            "type":"outcome",
-            "category":"Alimentacao",
-            "price":200.00,
-            "createAt":"2024-11-10T15:02:25.989Z"
-
-        },
-        {
-            "id":4,
-            "description":"Venda de games",
-            "type":"income",
-            "category":"Venda",
-            "price":1000.00,
-            "createAt":"2024-11-22T22:12:25.989Z"
-
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de sites",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createAt": "2024-06-10T15:02:25.989Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburger",
+      "type": "outcome",
+      "category": "Compra",
+      "price": 3,
+      "createAt": "2024-06-10T15:02:25.989Z"
+    },
+    {
+      "id": 3,
+      "description": "Compras",
+      "type": "outcome",
+      "category": "Alimentacao",
+      "price": 200,
+      "createAt": "2024-11-10T15:02:25.989Z"
+    },
+    {
+      "id": 4,
+      "description": "Venda de games",
+      "type": "income",
+      "category": "Venda",
+      "price": 1000,
+      "createAt": "2024-11-22T22:12:25.989Z"
+    },
+    {
+      "category": "venda",
+      "description": "venda de imoveis",
+      "price": 10000,
+      "type": "income",
+      "createAt": "2024-06-11T13:09:43.609Z",
+      "id": 5
+    },
+    {
+      "category": "teste",
+      "description": "teste",
+      "price": 12,
+      "type": "income",
+      "createAt": "2024-06-11T13:24:30.456Z",
+      "id": 6
+    },
+    {
+      "category": "alimentação",
+      "description": "ifood",
+      "price": 12,
+      "type": "outcome",
+      "createAt": "2024-06-11T16:08:53.372Z",
+      "id": 7
+    }
+  ]
 }
